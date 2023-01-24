@@ -12,7 +12,7 @@ Repository ini berisi kode python untuk membuat objek transaksi yang dapat menam
 7. Gunakan method check_order untuk menampilkan daftar item yang dibeli dalam bentuk tabel.
 8. Gunakan method hitung_total_price untuk menghitung total harga dan diskon yang diterima.
 
-#Contoh Penggunaan:
+# Contoh Penggunaan:
 
 1. Pertama, buat objek transaksi dengan membuat instance dari kelas Transaction, misal trnsct_123 = Transaction()
 2. Kemudian, tambahkan item ke dalam transaksi dengan menggunakan method add_item(). Contoh penggunaan: trnsct_123.add_item(["Ayam Goreng", 2, 20000])
