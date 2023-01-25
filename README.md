@@ -55,13 +55,13 @@ Sistem kasir yang dikembangkan dengan bahasa pemrograman Python ini dirancang un
 1. Test Case 1
 Menambahkan item dengan method `add_item`
 
-Input
+Input:
 - `transaksi.add_item(["Ayam Goreng", 2, 20000])`
 - `transaksi.add_item(["Pasta Gigi", 3, 15000])`
 - `print("Item yang dibeli adalah: ", transaksi.transaction)`
 
 output:
-Item yang dibeli adalah:  [['Ayam Goreng', 2, 20000], ['Pasta Gigi', 3, 15000]]
+- Item yang dibeli adalah:  [['Ayam Goreng', 2, 20000], ['Pasta Gigi', 3, 15000]]
 
 2. Test Case 2
 Menghapus item dengan method `delete_item`
@@ -71,7 +71,7 @@ Input:
 - `print("Item yang dibeli setelah didelete : ", transaksi.transaction)`
 
 Output:
-Item yang dibeli setelah didelete :  [['Ayam Goreng', 2, 20000]]
+- Item yang dibeli setelah didelete :  [['Ayam Goreng', 2, 20000]]
 
 3. Test Case 3
 Menghapus semua data transaksi dengan method `reset_transaction`
@@ -81,7 +81,7 @@ Input:
 - `print("Semua item berhasil dihapus!")`
 
 Output:
-Semua item berhasil dihapus!
+- Semua item berhasil dihapus!
 
 4. Test Case 4
 Mengecek data order dengan method `check_order`
@@ -96,10 +96,10 @@ Input:
 - `transaksi.check_order()`
 
 Output:
-Total Harga:  300000
-Diskon:  5.0 %
-Total Harga setelah diskon:  285000.0
-Pemesanan sudah benar
+- Total Harga:  300000
+- Diskon:  5.0 %
+- Total Harga setelah diskon:  285000.0
+- Pemesanan sudah benar
 
 ![tabel kasir](https://user-images.githubusercontent.com/112263898/214578771-67abe312-8031-4476-a046-4ae746224d56.png)
 
