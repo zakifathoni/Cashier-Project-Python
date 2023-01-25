@@ -8,8 +8,8 @@ Repository ini berisi kode python untuk membuat objek transaksi yang dapat menam
 # Penggunaan:
 
 1. Import library `tabulate` dengan perintah `from tabulate import tabulate`.
-2. Buat objek transaksi dengan membuat instance dari kelas `Transaction`, misal `transaksi = Transaction()`.
-3. Gunakan method `add_item` untuk menambahkan item ke dalam transaksi, dengan format `transaksi.add_item(["nama item", jumlah item, harga/item])`.
+2. Buat objek transaksi dengan membuat instance dari kelas `Transaction`.
+3. Gunakan method `add_item` untuk menambahkan item ke dalam transaksi.
 4. Gunakan method `update_item_name`, `update_item_qty`, dan `update_item_price` untuk mengupdate nama item, jumlah item, dan harga/item.
 5. Gunakan method `delete_item` untuk menghapus item dari transaksi.
 6. Gunakan method `reset_transaction` untuk menghapus semua item dari transaksi.
