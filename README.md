@@ -100,6 +100,7 @@ Total Harga:  300000
 Diskon:  5.0 %
 Total Harga setelah diskon:  285000.0
 Pemesanan sudah benar
+
 ╒═══════╤══════════════╤═══════════════╤══════════════╤═══════════════╕
 │   No. │ Nama item    │   Jumlah Item │   Harga/Item │   Total Harga │
 ╞═══════╪══════════════╪═══════════════╪══════════════╪═══════════════╡
