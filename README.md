@@ -5,7 +5,7 @@ Repository ini berisi kode python untuk membuat objek transaksi yang dapat menam
 
   ```mermaid
 graph LR
-A[Transaction] --> B[__init__]
+A[Transaction] --> B[__init__] --> C[add_item]
 A --> C[add_item]
 A --> D[update_item_name]
 A --> E[update_item_qty]
@@ -14,6 +14,15 @@ A --> G[delete_item]
 A --> H[reset_transaction]
 A --> I[check_order]
 A --> J[hitung_total_price]
+
+B --> C
+B --> D
+B --> E
+B --> F
+B --> G
+B --> H
+B --> I
+B --> J
   ```
 
 # Penggunaan:
