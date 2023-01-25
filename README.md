@@ -45,8 +45,8 @@ Sistem kasir yang dikembangkan dengan bahasa pemrograman Python ini dirancang un
 4. `update_item_price(self, name, updated_price)`: method ini digunakan untuk mengubah harga item yang ada di list transaksi. Method ini menerima 2 parameter, yaitu nama item yang harganya akan diubah dan harga baru dari item tersebut. Method ini akan mencari item dengan nama yang sesuai dengan parameter yang diterima, kemudian mengubah harga item tersebut dengan harga baru yang diterima.
 5. `delete_item(self, name)`: method ini digunakan untuk menghapus item yang ada di list transaksi. Method ini menerima 1 parameter, yaitu nama item yang akan dihapus. Method ini akan mencari item dengan nama yang sesuai dengan parameter yang diterima, kemudian menghapus item tersebut dari list transaksi dan mengurangi total harga dari transaksi.
 6. `reset_transaction(self)`: method ini digunakan untuk mereset data transaksi menjadi kosong dan mengeset total harga dan diskon menjadi 0.
-
-check_order(self): method ini digunakan untuk mengecek apakah ada kesalahan input data pada transaksi atau tidak. Jika tidak ada kesalahan, method ini akan
-
-
-
+7. `check_order(self)`: method ini digunakan untuk mengecek apakah ada kesalahan input data pada transaksi atau tidak. Jika tidak ada kesalahan, method ini akan menampilkan daftar item yang ada dalam transaksi dalam bentuk tabel yang menampilkan nomor item, nama item, jumlah item, harga item, dan total harga dari setiap item.
+hitung_total_price(self): method ini digunakan untuk menghitung total harga dari transaksi yang sedang berlangsung dan menentukan diskon yang diterima berdasarkan total harga yang diperoleh. Method ini akan mencetak total harga sebelum dan setelah diskon diterapkan.
+8. `transaction`: attribute ini digunakan untuk menyimpan daftar item yang ada dalam transaksi. Attribute ini bertipe list.
+9. `total_price`: attribute ini digunakan untuk menyimpan total harga dari transaksi yang sedang berlangsung. Attribute ini bertipe float.
+10. `discount`: attribute ini digunakan untuk menyimpan persentase diskon yang diterima dari transaksi yang sedang berlangsung. Attribute ini bertipe float.
