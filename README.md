@@ -14,6 +14,7 @@ A --> G[delete_item]
 A --> H[reset_transaction]
 A --> I[check_order]
 A --> J[hitung_total_price]
+  ```
 
 # Penggunaan:
 
