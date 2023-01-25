@@ -50,3 +50,64 @@ Sistem kasir yang dikembangkan dengan bahasa pemrograman Python ini dirancang un
 9. `transaction`: attribute bertipe list ini digunakan untuk menyimpan daftar item yang ada dalam transaksi.
 10. `total_price`: attribute bertipe float ini digunakan untuk menyimpan total harga dari transaksi yang sedang berlangsung.
 11. `discount`: attribute bertipe float ini digunakan untuk menyimpan persentase diskon yang diterima dari transaksi yang sedang berlangsung.
+
+
+### Test Case 1
+Menambahkan item dengan method `add_item`
+
+Input:
+`transaksi.add_item(["Ayam Goreng", 2, 20000])`
+`transaksi.add_item(["Pasta Gigi", 3, 15000])`
+`print("Item yang dibeli adalah: ", transaksi.transaction)`
+
+output:
+Item yang dibeli adalah:  [['Ayam Goreng', 2, 20000], ['Pasta Gigi', 3, 15000]]
+
+### Test Case 2
+Menghapus item dengan method `delete_item`
+
+Input:
+`transaksi.delete_item("Pasta Gigi")`
+`print("Item yang dibeli setelah didelete : ", transaksi.transaction)`
+
+Output:
+Item yang dibeli setelah didelete :  [['Ayam Goreng', 2, 20000]]
+
+Test Case 3
+Menghapus semua data transaksi dengan method `reset_transaction`
+
+Input:
+`transaksi.reset_transaction()`
+`print("Semua item berhasil dihapus!")`
+
+Output:
+Semua item berhasil dihapus!
+
+Test Case 4
+Mengecek data order dengan method `check_order`
+Menampilkan total belanja dengan `method total_price`
+
+Input:
+`transaksi.add_item(["Ayam Goreng", 2, 20000])`
+`transaksi.add_item(["Pasta Gigi", 3, 15000])`
+`transaksi.add_item(["Mainan Mobil", 1, 200000])`
+`transaksi.add_item(["Mie Instan", 5, 3000])`
+`transaksi.hitung_total_price()`
+`transaksi.check_order()`
+
+Output:
+Total Harga:  300000
+Diskon:  5.0 %
+Total Harga setelah diskon:  285000.0
+Pemesanan sudah benar
+╒═══════╤══════════════╤═══════════════╤══════════════╤═══════════════╕
+│   No. │ Nama item    │   Jumlah Item │   Harga/Item │   Total Harga │
+╞═══════╪══════════════╪═══════════════╪══════════════╪═══════════════╡
+│     1 │ Ayam Goreng  │             2 │        20000 │         40000 │
+├───────┼──────────────┼───────────────┼──────────────┼───────────────┤
+│     2 │ Pasta Gigi   │             3 │        15000 │         45000 │
+├───────┼──────────────┼───────────────┼──────────────┼───────────────┤
+│     3 │ Mainan Mobil │             1 │       200000 │        200000 │
+├───────┼──────────────┼───────────────┼──────────────┼───────────────┤
+│     4 │ Mie Instan   │             5 │         3000 │         15000 │
+╘═══════╧══════════════╧═══════════════╧══════════════╧═══════════════╛
