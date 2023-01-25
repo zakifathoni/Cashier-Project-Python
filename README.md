@@ -52,7 +52,7 @@ Sistem kasir yang dikembangkan dengan bahasa pemrograman Python ini dirancang un
 11. `discount`: attribute bertipe float ini digunakan untuk menyimpan persentase diskon yang diterima dari transaksi yang sedang berlangsung.
 
 ### Test case:
-1. Test Case 1
+#### Test Case 1
 Menambahkan item dengan method `add_item`
 
 Input:
@@ -63,7 +63,7 @@ Input:
 output:
 - Item yang dibeli adalah:  [['Ayam Goreng', 2, 20000], ['Pasta Gigi', 3, 15000]]
 
-2. Test Case 2
+#### Test Case 2
 Menghapus item dengan method `delete_item`
 
 Input:
@@ -73,7 +73,7 @@ Input:
 Output:
 - Item yang dibeli setelah didelete :  [['Ayam Goreng', 2, 20000]]
 
-3. Test Case 3
+#### Test Case 3
 Menghapus semua data transaksi dengan method `reset_transaction`
 
 Input:
@@ -83,7 +83,7 @@ Input:
 Output:
 - Semua item berhasil dihapus!
 
-4. Test Case 4
+#### Test Case 4
 Mengecek data order dengan method `check_order`
 Menampilkan total belanja dengan `method total_price`
 
