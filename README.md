@@ -1,9 +1,11 @@
 # CASHIER PROJECT PACMANN
 
 ### Latar Belakang
+
 Sistem kasir yang dikembangkan dengan bahasa pemrograman Python ini dirancang untuk memberikan kenyamanan dan kemudahan bagi pelanggan dalam melakukan transaksi belanja di supermarket. Tujuan utama dari sistem ini adalah untuk memfasilitasi pelanggan dalam memasukkan item yang ingin dibeli, jumlah item, dan harga per item. Selain itu, pelanggan juga dapat melakukan pengubahan data transaksi yang telah dibuat, seperti mengubah data item, jumlah item, atau harga per item. Dalam hal ini, pelanggan dapat menghapus item yang tidak ingin dibeli dengan menghapus satu item atau mereset data transaksi secara keseluruhan. Selain itu, pelanggan juga dapat melihat data order yang telah diinput sebelumnya dan melihat total harga dari semua item yang dipilih.
 
 ### Requirements
+
 1. Merancang sistem kasir yang dapat mempermudah pelanggan dalam menambah item yang ingin dibeli, beserta jumlah item dan harga item tersebut:
   - Membuat fitur untuk mengubah nama item yang ingin dibeli dalam sistem kasir.
   - Menyediakan opsi untuk mengubah jumlah item yang dipilih dalam transaksi.
@@ -20,7 +22,7 @@ Sistem kasir yang dikembangkan dengan bahasa pemrograman Python ini dirancang un
 
 ![FLOWCHART KASIR](https://user-images.githubusercontent.com/112263898/214484345-83c23672-da60-4c0c-ae48-aaa5467ae91c.png)
 
-### Penggunaan:
+### Penggunaan
 
 1. Import library `tabulate` dengan perintah `from tabulate import tabulate`.
 2. Buat objek transaksi dengan membuat instance dari kelas `Transaction`.
