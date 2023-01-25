@@ -39,7 +39,7 @@ Sistem kasir yang dikembangkan dengan bahasa pemrograman Python ini dirancang un
 
 ### Method dan attribute
 
-1. `add_item(self, item)`: method ini digunakan untuk menambah item ke list transaksi dengan 3 elemen, yaitu nama item, jumlah item, dan harga item.
+1. `add_item(self, item)`: method ini digunakan untuk menambah item ke list transaksi yang berisi 3 elemen (nama item, jumlah item, dan harga item).
 2. `update_item_name(self, name, updated_name)`: method ini digunakan untuk mengubah nama item yang ada di list transaksi. Method ini menerima 2 parameter, yaitu nama item yang akan diubah dan nama baru dari item tersebut.
 3. `update_item_qty(self, name, updated_qty)`: method ini digunakan untuk mengubah jumlah item yang ada di list transaksi. Method ini menerima 2 parameter, yaitu nama item yang jumlahnya akan diubah dan jumlah baru dari item tersebut.
 4. `update_item_price(self, name, updated_price)`: method ini digunakan untuk mengubah harga item yang ada di list transaksi. Method ini menerima 2 parameter, yaitu nama item yang harganya akan diubah dan harga baru dari item tersebut.
