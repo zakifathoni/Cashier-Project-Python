@@ -56,9 +56,9 @@ Sistem kasir yang dikembangkan dengan bahasa pemrograman Python ini dirancang un
 Menambahkan item dengan method `add_item`
 
 Input:
-`transaksi.add_item(["Ayam Goreng", 2, 20000])`
-`transaksi.add_item(["Pasta Gigi", 3, 15000])`
-`print("Item yang dibeli adalah: ", transaksi.transaction)`
+transaksi.add_item(["Ayam Goreng", 2, 20000])
+transaksi.add_item(["Pasta Gigi", 3, 15000])
+print("Item yang dibeli adalah: ", transaksi.transaction)
 
 output:
 Item yang dibeli adalah:  [['Ayam Goreng', 2, 20000], ['Pasta Gigi', 3, 15000]]
@@ -67,8 +67,8 @@ Item yang dibeli adalah:  [['Ayam Goreng', 2, 20000], ['Pasta Gigi', 3, 15000]]
 Menghapus item dengan method `delete_item`
 
 Input:
-`transaksi.delete_item("Pasta Gigi")`
-`print("Item yang dibeli setelah didelete : ", transaksi.transaction)`
+transaksi.delete_item("Pasta Gigi")
+print("Item yang dibeli setelah didelete : ", transaksi.transaction)
 
 Output:
 Item yang dibeli setelah didelete :  [['Ayam Goreng', 2, 20000]]
@@ -77,8 +77,8 @@ Item yang dibeli setelah didelete :  [['Ayam Goreng', 2, 20000]]
 Menghapus semua data transaksi dengan method `reset_transaction`
 
 Input:
-`transaksi.reset_transaction()`
-`print("Semua item berhasil dihapus!")`
+transaksi.reset_transaction()
+print("Semua item berhasil dihapus!")
 
 Output:
 Semua item berhasil dihapus!
@@ -88,12 +88,12 @@ Mengecek data order dengan method `check_order`
 Menampilkan total belanja dengan `method total_price`
 
 Input:
-`transaksi.add_item(["Ayam Goreng", 2, 20000])`
-`transaksi.add_item(["Pasta Gigi", 3, 15000])`
-`transaksi.add_item(["Mainan Mobil", 1, 200000])`
-`transaksi.add_item(["Mie Instan", 5, 3000])`
-`transaksi.hitung_total_price()`
-`transaksi.check_order()`
+transaksi.add_item(["Ayam Goreng", 2, 20000])
+transaksi.add_item(["Pasta Gigi", 3, 15000])
+transaksi.add_item(["Mainan Mobil", 1, 200000])
+transaksi.add_item(["Mie Instan", 5, 3000])
+transaksi.hitung_total_price()
+transaksi.check_order()
 
 Output:
 Total Harga:  300000
