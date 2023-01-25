@@ -106,12 +106,10 @@ Pemesanan sudah benar
 ### Kesimpulan:
 Kode di atas merupakan sebuah proyek yang dapat digunakan untuk mengelola transaksi pembelian barang di sebuah toko atau supermarket. Proyek ini menggunakan class Transaction yang memiliki beberapa method seperti add_item, update_item_name, update_item_qty, update_item_price, delete_item, reset_transaction, check_order, dan hitung_total_price. Method-method tersebut digunakan untuk menambah, mengubah, menghapus item, mereset transaksi, memeriksa pemesanan, dan menghitung total harga serta diskon. Proyek ini juga menggunakan library tabulate untuk menampilkan data transaksi dalam bentuk tabel yang rapi.
 
-       - Kritik:
-
+   - Kritik:
 Proyek ini hanya menggunakan metode kondisional untuk menentukan diskon, sehingga jika toko atau supermarket ingin mengubah metode diskon, maka harus mengubah kode program. Sebaiknya dapat menggunakan metode yang lebih fleksibel seperti meng-input diskon dari user atau menggunakan external file untuk menyimpan data diskon.
 Proyek ini hanya menggunakan print statement untuk menampilkan data transaksi, sebaiknya dapat digabungkan dengan GUI atau tampilan web untuk lebih memudahkan user dalam melihat data transaksi.
-       - Saran:
-
+   - Saran:
 Untuk menambah fleksibilitas proyek, dapat menambahkan fitur untuk menyimpan data transaksi dalam external file seperti CSV atau database.
 Dapat menambahkan fitur pembayaran dan pengiriman barang untuk menyempurnakan proyek ini menjadi sebuah aplikasi e-commerce.
 Dapat menambahkan fitur autentikasi user untuk menyimpan data transaksi per user dan meningkatkan keamanan data.
