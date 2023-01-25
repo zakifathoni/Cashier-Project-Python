@@ -23,6 +23,78 @@ B --> G
 B --> H
 B --> I
 B --> J
+
+C --> B
+C --> D
+C --> E
+C --> F
+C --> G
+C --> H
+C --> I
+C --> J
+
+D --> C
+D --> B
+D --> E
+D --> F
+D --> G
+D --> H
+D --> I
+D --> J
+
+E --> C
+E --> D
+E --> B
+E --> F
+E --> G
+E --> H
+E --> I
+E --> J
+
+F --> C
+F --> D
+F --> E
+F --> B
+F --> G
+F --> H
+F --> I
+F --> J
+
+G --> C
+G --> D
+G --> E
+G --> F
+G --> B
+G --> H
+G --> I
+G --> J
+
+H --> C
+H --> D
+H --> E
+H --> F
+H --> G
+H --> B
+H --> I
+H --> J
+
+I --> C
+I --> D
+I --> E
+I --> F
+I --> G
+I --> H
+I --> B
+I --> J
+
+J --> C
+J --> D
+J --> E
+J --> F
+J --> G
+J --> H
+J --> I
+J --> B
   ```
 
 # Penggunaan:
