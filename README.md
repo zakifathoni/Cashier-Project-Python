@@ -7,13 +7,13 @@ Sistem kasir yang dikembangkan dengan bahasa pemrograman Python ini dirancang un
 ### Requirements
 
 1. Merancang sistem kasir yang dapat mempermudah pelanggan dalam menambah item yang ingin dibeli, beserta jumlah item dan harga item tersebut:
-  - Membuat fitur untuk mengubah nama item yang ingin dibeli dalam sistem kasir.
-  - Menyediakan opsi untuk mengubah jumlah item yang dipilih dalam transaksi.
-  - Membuat fitur untuk mengubah harga item yang dipilih dalam transaksi.
-  - Menyediakan fitur untuk menghapus item yang tidak jadi dibeli dalam transaksi.
-  - Membuat opsi untuk mereset semua data transaksi dalam sistem kasir.
-  - Menyediakan fitur untuk mengecek data order yang sudah dibuat dalam sistem kasir.
-  - Membuat fitur untuk melihat total harga keseluruhan item yang dipilih dalam transaksi.
+    - Membuat fitur untuk mengubah nama item yang ingin dibeli dalam sistem kasir.
+    - Menyediakan opsi untuk mengubah jumlah item yang dipilih dalam transaksi.
+    - Membuat fitur untuk mengubah harga item yang dipilih dalam transaksi.
+    - Menyediakan fitur untuk menghapus item yang tidak jadi dibeli dalam transaksi.
+    - Membuat opsi untuk mereset semua data transaksi dalam sistem kasir.
+    - Menyediakan fitur untuk mengecek data order yang sudah dibuat dalam sistem kasir.
+    - Membuat fitur untuk melihat total harga keseluruhan item yang dipilih dalam transaksi.
 2. Membuat project sistem kasir menggunakan bahasa pemrograman Python.
 3. Mengimplementasikan materi function, branching, dan data structure dalam pengembangan sistem kasir.
 4. Menyertakan konsep OOP dalam program yang dirancang untuk sistem kasir.
