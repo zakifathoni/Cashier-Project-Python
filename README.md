@@ -51,7 +51,8 @@ Sistem kasir yang dikembangkan dengan bahasa pemrograman Python ini dirancang un
 10. `total_price`: attribute bertipe float ini digunakan untuk menyimpan total harga dari transaksi yang sedang berlangsung.
 11. `discount`: attribute bertipe float ini digunakan untuk menyimpan persentase diskon yang diterima dari transaksi yang sedang berlangsung.
 
-### Test case:
+### Test case
+
 #### Test Case 1
 Menambahkan item dengan method `add_item`
 
