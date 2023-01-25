@@ -36,3 +36,17 @@ Sistem kasir yang dikembangkan dengan bahasa pemrograman Python ini dirancang un
 > Note: Pada kode di atas, diskon yang diterima ditentukan berdasarkan total harga transaksi. Jika total harga > 500_000 maka diskon yang diterima adalah 10%, jika total harga > 300_000 maka diskon yang diterima adalah 8%, dan jika total harga > 200_000 maka diskon yang diterima adalah 5%. Anda dapat mengubah persentase diskon sesuai dengan kebutuhan Anda dengan mengubah kondisi pada method `hitung_total_price()`.
 
 - Selain itu, Anda juga dapat menambahkan atau mengubah fitur lain pada kelas `Transaction` sesuai dengan kebutuhan Anda. Contohnya Anda dapat menambahkan feature untuk menambahkan customer name atau no.invoice pada transaksi.
+
+### Method dan attribute
+
+1. `add_item(self, item)`: method ini digunakan untuk menambah item ke list transaksi. Dari kode di atas, item yang ditambahkan ke list transaksi dalam bentuk list dengan 3 elemen, yaitu nama item, jumlah item, dan harga item. Kemudian total harga dari transaksi akan diupdate dengan menambahkan harga item baru yang ditambahkan.
+2. `update_item_name(self, name, updated_name)`: method ini digunakan untuk mengubah nama item yang ada di list transaksi. Method ini menerima 2 parameter, yaitu nama item yang akan diubah dan nama baru dari item tersebut. Method ini akan mencari item dengan nama yang sesuai dengan parameter yang diterima, kemudian mengubah nama item tersebut dengan nama baru yang diterima.
+3. `update_item_qty(self, name, updated_qty)`: method ini digunakan untuk mengubah jumlah item yang ada di list transaksi. Method ini menerima 2 parameter, yaitu nama item yang jumlahnya akan diubah dan jumlah baru dari item tersebut. Method ini akan mencari item dengan nama yang sesuai dengan parameter yang diterima, kemudian mengubah jumlah item tersebut dengan jumlah baru yang diterima.
+4. `update_item_price(self, name, updated_price)`: method ini digunakan untuk mengubah harga item yang ada di list transaksi. Method ini menerima 2 parameter, yaitu nama item yang harganya akan diubah dan harga baru dari item tersebut. Method ini akan mencari item dengan nama yang sesuai dengan parameter yang diterima, kemudian mengubah harga item tersebut dengan harga baru yang diterima.
+5. `delete_item(self, name)`: method ini digunakan untuk menghapus item yang ada di list transaksi. Method ini menerima 1 parameter, yaitu nama item yang akan dihapus. Method ini akan mencari item dengan nama yang sesuai dengan parameter yang diterima, kemudian menghapus item tersebut dari list transaksi dan mengurangi total harga dari transaksi.
+6. `reset_transaction(self)`: method ini digunakan untuk mereset data transaksi menjadi kosong dan mengeset total harga dan diskon menjadi 0.
+
+check_order(self): method ini digunakan untuk mengecek apakah ada kesalahan input data pada transaksi atau tidak. Jika tidak ada kesalahan, method ini akan
+
+
+
