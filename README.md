@@ -56,9 +56,9 @@ Sistem kasir yang dikembangkan dengan bahasa pemrograman Python ini dirancang un
 Menambahkan item dengan method `add_item`
 
 Input
-transaksi.add_item(["Ayam Goreng", 2, 20000])
-transaksi.add_item(["Pasta Gigi", 3, 15000])
-print("Item yang dibeli adalah: ", transaksi.transaction)
+- `transaksi.add_item(["Ayam Goreng", 2, 20000])`
+- `transaksi.add_item(["Pasta Gigi", 3, 15000])`
+- `print("Item yang dibeli adalah: ", transaksi.transaction)`
 
 output:
 Item yang dibeli adalah:  [['Ayam Goreng', 2, 20000], ['Pasta Gigi', 3, 15000]]
