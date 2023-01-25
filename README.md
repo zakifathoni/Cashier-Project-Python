@@ -3,7 +3,7 @@ Repository ini berisi kode python untuk membuat objek transaksi yang dapat menam
 
 # Flowchart
 
-
+![FLOWCHART KASIR](https://user-images.githubusercontent.com/112263898/214484345-83c23672-da60-4c0c-ae48-aaa5467ae91c.png)
 
 # Penggunaan:
 
