@@ -3,6 +3,7 @@ from tabulate import tabulate
 
 # Membuat class Transaction
 class Transaction:
+    
     # Membuat method constructor 
     def __init__(self):
         """
